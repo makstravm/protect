@@ -1,13 +1,95 @@
-@import 'vars';
-@import 'fonts';
-@import 'reset';
-@import 'libs';
-@import 'global';
+@import "vars";
+@import "font";
+@import "reset";
+@import "libs";
+@import "global";
 
+.header {
+  background-image: url(../images/home-bg-1.jpg);
+  @extend %bg;
+  height: 100vh;
+  &__content {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  &__box-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+    padding-left: 20px;
+  }
+  &__title {
+    font-size: 72px;
+    line-height: 64px;
+    @extend %circle-800;
+    color: #fff;
+    text-align-last: right;
+    max-width: 520px;
+    margin-right: 20px;
+    margin-top: -5px;
+  }
+  &__year {
+    @extend %circle-800;
+    font-size: 300px;
+    color: #fff;
+    line-height: 180px;
+    position: relative;
+    margin-top: 35px;
+    span {
+      position: absolute;
+      transform: rotate(-90deg);
+      bottom: 65px;
+      right: -18px;
+      font-size: 48px;
+      line-height: 42px;
+      z-index: 2;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: #5072dd;
+        top: -10px;
+        left: -15px;
+        border-radius: 50%;
+        z-index: -1;
+      }
+    }
+  }
+  &__box-text {
+    display: flex;
+    margin-left: 30px;
+  }
+  &__text {
+    color: #fff;
+    max-width: 455px;
+    @extend %circle-700;
+    font-size: 26px;
+    padding-left: 35px;
+    position: relative;
+    margin-right: 30px;
+    &::after {
+      content: "";
+      position: absolute;
+      left: -16px;
+      bottom: 0;
+      border-radius: 4px;
+      width: 10px;
+      height: 137px;
+      background-color: #5072dd;
+    }
+  }
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    align-self: flex-start;
+    background-color: #415eb8;
+    @extend %circle-700;
+    padding: 16px 30px;
+    border-radius: 32px;
+  }
+}
 
-
-
-
-
-
-@import 'media';
+@import "media";
