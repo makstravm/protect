@@ -142,3 +142,36 @@ body {
     }
   }
 }
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  line-height: 64px;
+  color: #6482e1;
+  text-transform: uppercase;
+  padding-top: 40px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    background-image: url(../images/slash.png);
+    top: 0;
+    left: 50%;
+  }
+  &__box {
+    padding-top: 55px;
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  line-height: 56px;
+  max-width: 740px;
+  color: #000;
+  margin: 0 auto 85px;
+  &.nosubtitle {
+    margin-top: 25px;
+  }
+}
