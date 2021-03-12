@@ -9,7 +9,9 @@
   "author": "M.M.",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.13",
+    "circletype": "^2.3.0",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -18,8 +20,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.5.1",
-    "@fancyapps/fancybox": "^3.5.7",
     "jquery-form-styler": "^2.0.2",
     "slick-carousel": "^1.8.1"
-  }
+  },
+  "dependencies": {}
 }
