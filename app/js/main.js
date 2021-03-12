@@ -59,7 +59,6 @@ $(function () {
                 }
             }
         }
-
         function offset(el) {
             const rect = el.getBoundingClientRect(),
                 scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
