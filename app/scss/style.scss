@@ -583,9 +583,9 @@
     &:hover {
       animation: operate-play 0.1s linear infinite alternate;
     }
-    .btn__link {
-      transform: translateY(50%);
-    }
+  }
+  .btn__link {
+    transform: translateY(50%);
   }
 }
 
