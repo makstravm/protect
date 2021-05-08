@@ -34,6 +34,7 @@ function scripts() {
     'node_modules/jquery/dist/jquery.js',
     'node_modules/slick-carousel/slick/slick.js',
     'node_modules/circletype/dist/circletype.min.js',
+    'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
     'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
     'app/js/main.js'
   ])
